@@ -1,6 +1,6 @@
 import { SearchResultItemType } from '../models/SearchResultItemType';
 import { useSearchCity } from './useSearchCity';
-import React, { ChangeEvent, KeyboardEvent } from 'react';
+import type  { ChangeEvent, KeyboardEvent } from 'react';
 import { SearchResultItem } from './SearchResultItem';
 
 export const SearchCityInput = ({
