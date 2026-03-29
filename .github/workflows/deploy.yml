@@ -3,7 +3,7 @@ name: CI/CD to Kubernetes
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   packages: write
