@@ -18,7 +18,7 @@ spec:
         - name: weather-app
           image: ghcr.io/sangbinlee/weather-app:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 80
           imagePullPolicy: Always
 ---
 apiVersion: v1
@@ -33,7 +33,7 @@ spec:
     app: weather-app
   ports:
     - port: 80
-      targetPort: 3000
+      targetPort: 80
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
