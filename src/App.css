@@ -51,7 +51,7 @@ h1 {
 
 .search-results {
   background: white;
-  position: absolute;
+  /*position: absolute;*/
   top: 6px;
   border: 1px solid #ccc;
   width: 100%;
