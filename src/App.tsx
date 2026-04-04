@@ -67,6 +67,8 @@ function App() {
 
 
   const onDeleteCity = (cityName: string) => {
+
+    console.error('■■■■■■■ delete city=', cityName);
     // localStorage에서 제거
     const items = JSON.parse(localStorage.getItem('favoriteItems') || '[]');
     const newItems = items.filter((item: RemoteSearchResultItem) => item.name !== cityName);
