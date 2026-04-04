@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: weather-app
-          image: ghcr.io/sangbinlee/weather-app:0fedb248915fd194fa5217389b0479576e8e3d34
+          image: ghcr.io/sangbinlee/weather-app:750d57353b2140a746fba4c596350cf52a1a7cb0
           ports:
             - containerPort: 80
           imagePullPolicy: Always
